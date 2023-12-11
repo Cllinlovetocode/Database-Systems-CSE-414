@@ -1,0 +1,40 @@
+Use only the mondial.adm dataset for problems 1-5.
+
+Retrieve the names of all cities located in Peru, sorted alphabetically. 
+
+Name your output attribute city. 
+
+[Result Size: 30 rows of {"city":...}]
+
+For each country, return its name, its population, and the number of religions sorted alphabetically by country. Report 0 religions for countries without religions. 
+
+Name your output attributes country, population, num_religions. 
+
+[Result Size: 238 rows of {"num_religions":..., "country":..., "population":...}]
+
+For each religion return the number of countries where it occurs; order them in decreasing number of countries. 
+
+Name your output attributes religion, num_countries. 
+
+[Result size: 37 of {"religion':..., "num_countries":...}]
+
+For each ethnic group, return the number of countries where it occurs, as well as the total population world-wide of that group. Hint: you need to multiply the ethnicity’s percentage with the country’s population. Use the functions float(x) and/or int(x) to convert a string to a float or to an int. 
+
+Name your output attributes ethnic_group, num_countries, total_population. You can leave your final total_population as a float if you like. 
+
+[Result Size: 262 of {"ethnic_group":..., "num_countries":..., "total_population":...}]
+
+
+
+
+
+Find all countries bordering two or more seas. Here you need to join the "sea" collection with the "country" collection. For each country in your list, return its code, its name, and the list of bordering seas, in decreasing order of the number of seas. 
+
+Name your output attributes country_code, country_name, seas. The attribute seas should be a list of objects, each with the attribute sea. 
+
+[Result Size: 74 rows of {"country_code":..., "country_name":..., "seas": [{"sea":...}, {"sea":...}, ...]}]
+
+
+Submission Instructions
+Write your answers in a file for each question: q1.sqlp, … , q5.sqlp to Gradescope. 
+For the appropriate questions, leave your runtime in a comment.
